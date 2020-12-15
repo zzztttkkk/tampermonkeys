@@ -10,10 +10,7 @@
 
 (function() {
     'use strict';
-
-    Array.from(document.querySelectorAll(".reply_list")).forEach(
-        function(item){
-            console.log(item);
-        }
-    );
+    window.onload = function(){
+        Array.from(document.querySelectorAll(".reply_list")).forEach((item)=>{item.remove()});
+    }
 })();
