@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        https://www.solidot.org/
+// @match        https://www.solidot.org/*
 // @grant        none
 // ==/UserScript==
 
