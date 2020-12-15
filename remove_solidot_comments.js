@@ -10,6 +10,7 @@
 
 (function() {
     'use strict';
+    Array.from(document.querySelectorAll(".reply_list")).forEach((item)=>{item.remove()});
     window.onload = function(){
         Array.from(document.querySelectorAll(".reply_list")).forEach((item)=>{item.remove()});
     }
