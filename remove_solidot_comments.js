@@ -11,7 +11,9 @@
 (function() {
     'use strict';
     Array.from(document.querySelectorAll(".reply_list")).forEach((item)=>{item.remove()});
+    Array.from(document.querySelectorAll(".talkm_mid div.r")).forEach((item)=>{item.remove()});
     window.onload = function(){
+        Array.from(document.querySelectorAll(".talkm_mid div.r")).forEach((item)=>{item.remove()});
         Array.from(document.querySelectorAll(".reply_list")).forEach((item)=>{item.remove()});
     }
 })();
